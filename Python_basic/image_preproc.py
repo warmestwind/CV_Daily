@@ -1,6 +1,7 @@
 import cv2
 
 img=cv2.imread('red10.jpg',1)
+#img2=img.copy()
 img[0,0]=[255,0,0]
 img[1,1]=[0,0,0]
 #cv2.imshow('image',img)
@@ -10,4 +11,5 @@ print(img[0,0,2])
 img_rgb = img[:, :, ::-1]
 # ::-1 ： reverse the component
 print(img_rgb[:,:])
+#print(img_rgb.shape)
 #cv2.waitKey(0)
