@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-img=cv2.imread('red10.jpg',1)
+img=cv2.imread('red22.jpg',1)
 img2=img.copy()
 img[0,0]=[255,0,0]
 img[1,1]=[0,0,0]
