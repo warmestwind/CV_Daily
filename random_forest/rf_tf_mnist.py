@@ -1,4 +1,4 @@
-//reference: https://github.com/tensorflow/tensorflow/tree/r1.4/tensorflow/contrib/tensor_forest
+#reference: https://github.com/tensorflow/tensorflow/tree/r1.4/tensorflow/contrib/tensor_forest
 import tensorflow as tf
 from tensorflow.contrib.tensor_forest.python import tensor_forest
 
