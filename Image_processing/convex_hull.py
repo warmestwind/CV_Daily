@@ -22,7 +22,7 @@ class ConvexHull(object):
         Negative if p1 is counter- clockwise of p2.
         目的是找逆时针方向的p2，即函数返回值>0的点
 
-        # # https: // www.geeksforgeeks.org / check - if -two - given - line - segments - intersect /
+        # # https://www.geeksforgeeks.org/check-if-two-given-line-segments-intersect/
         # # 斜率相减  p1p0 ,p2p0
         # # >0 :clockwise
         # # <0 :counterclockwise
