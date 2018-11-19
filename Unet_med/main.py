@@ -1,4 +1,6 @@
-#https://ai.intel.com/biomedical-image-segmentation-u-net/
+#源代码参考:https://github.com/jakeret/tf_unet
+#实验数据:https://www.kaggle.com/4quant/soft-tissue-sarcoma
+#医学图像Unet:https://ai.intel.com/biomedical-image-segmentation-u-net/
 from tf_unet.unet_medi import Unet, Trainer
 import tensorflow as tf
 import numpy as np
