@@ -3,7 +3,7 @@
 for i in range(5):
     try:
         if i == 3:
-            raise Exception('x should not be 3. The value of x was: {}'.format(i))
+            raise Exception('i should not be 3. The value of x was: {}'.format(i))
         else:
             print(i)
     except Exception as exc:
